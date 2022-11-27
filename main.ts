@@ -12,4 +12,9 @@ basic.forever(function () {
     } else {
         basic.showNumber(sensors.slideRheostat(AnalogPin.P0))
     }
+    if (sensors.slideRheostat(AnalogPin.P0) > 500) {
+        pins.analogWritePin(AnalogPin.P1, 1023)
+    } else {
+        pins.analogWritePin(AnalogPin.P1, 0)
+    }
 })
