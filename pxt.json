@@ -5,7 +5,9 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "sensors": "github:emakefun/pxt-sensorbit#397c3b6e4c3c5586faa3b5c9eafbaf4b42348502"
+        "sensors": "github:emakefun/pxt-sensorbit#397c3b6e4c3c5586faa3b5c9eafbaf4b42348502",
+        "datalogger": "*",
+        "TM1650": "github:makecode-extensions/tm1650#v1.1.0"
     },
     "files": [
         "main.blocks",
